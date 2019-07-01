@@ -8,6 +8,17 @@
 
 
 }
+#IR {
+  background-image: url('images/coming-soon.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: "315";
+  width: "560";
+}
+.c {
+  text-align: center;
+  margin-top: 5%;
+}
 body {
   position: relative;
 }
@@ -15,16 +26,13 @@ a {
     outline: 0;
 }
 
-#project-header {
-  color: black;
-  text-align: center;
-}
-
 #projectjumbo {
   background-color: rgb(244, 248, 255);
   text-align: center;
 }
-
+.list-group-item-mine:hover{
+  background-color: red;
+}
 .{
     outline:0;
 }
