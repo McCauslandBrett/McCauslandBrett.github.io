@@ -21,10 +21,10 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <button type="button" class="btn btn-dark"><a class="text-white nav-item nav-link active" href="#aboutsection" >About </a></button>
-        <button type="button" class="btn btn-dark"><a class="text-white nav-item nav-link active" href="#aboutedu" >Education </a></button>
-        <button type="button" class="btn btn-dark"><a class="text-white nav-item nav-link active" href="#aboutjumbo" >Experience </a></button>
-        <button type="button" class="btn btn-dark"><a class="text-white nav-item nav-link active" href="#aboutproject" >Projects </a></button>
+        <button type="button" class="btn btn-dark"><a class="text-white nav-item nav-link active" href="#AboutJumbo" >About </a></button>
+        <button type="button" class="btn btn-dark"><a class="text-white nav-item nav-link active" href="#EducationJumbo" >Education </a></button>
+        <button type="button" class="btn btn-dark"><a class="text-white nav-item nav-link active" href="#ExperienceJumbo" >Experience </a></button>
+        <button type="button" class="btn btn-dark"><a class="text-white nav-item nav-link active" href="#ProjectJumbo" >Projects </a></button>
       </div>
     </nav>
 
@@ -39,7 +39,7 @@
 <!-- <img id = 'face'src="images/face.jpg" alt="Avatar"> -->
 </div>
 <!-- About -->
-  <div id = "aboutjumbo" class= "jumbotron jumbotron-fluid">
+  <div id = "AboutJumbo" class= "jumbotron jumbotron-fluid">
     <div class="container">
       <h1 id = "h1about" class="display-4">- About Brett -</h1>
       <p id = "pabout" class="lead">Brett McCausland is a skilled C++ Software Engineer and Data Scientist.
@@ -51,9 +51,9 @@
     </div>
   </div>
   <!-- Education  -->
-  <div  class="jumbotron jumbotron-fluid">
+  <div  id = "EducationJumbo" class="jumbotron jumbotron-fluid">
     <div class="container">
-      <h1 id = "h1about" class="display-4">- Education -</h1>
+      <h1 id = "h1about" class="display-4">Education </h1>
       <div class="c">
         <h4> Pasadena City College</h4>
           <h6> Asociates of Science, Mathmatics - June 2017 </h6>
@@ -67,9 +67,9 @@
   </div>
 
   <!-- Header Experience -->
-  <div id = "aboutjumbo" class="jumbotron jumbotron-fluid">
+  <div id = "ExperienceJumbo" class="jumbotron jumbotron-fluid">
     <div class="container">
-      <h1 id = "h1about" class="display-4">- Experience -</h1>
+      <h1 id = "h1about" class="display-4">Engineering & Leadership Experience </h1>
     </div>
   </div>
 
@@ -77,25 +77,14 @@
   <div class="row">
   <div class="col-md-3">
     <div class="list-group" id="list-tab" role="tablist">
-      <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-Suarapod" role="tab" aria-controls="home"> Suarapod </a>
-      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-K1" role="tab" aria-controls="messages"> K1 Speed </a>
+      <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-K1" role="tab" aria-controls="home">  K1 Speed </a>
       <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-Impact" role="tab" aria-controls="settings"> Impact Solutions </a>
     </div>
   </div>
   <div class="col-md-9" id = "card" >
     <div class="tab-content" id="nav-tabContent">
 
-      <div class="tab-pane fade show active" id="list-Suarapod" role="tabpanel" aria-labelledby="list-home-list">
-        <h2>Co-Founder</h2>
-        <h5>June 2018 - Current</h5>
-        <ul  style="list-style-type:square;">
-            <li>Developed personal web-pages and moble app templates </li>
-            <li>Worked with node js server applications </li>
-            <li>Used express, React and React Native </li>
-      </ul>
-      </div>
-
-      <div class="tab-pane fade" id="list-K1" role="tabpanel" aria-labelledby="list-profile-list">
+      <div class="tab-pane fade show active" id="list-K1" role="tabpanel" aria-labelledby="list-home-list">
         <h2> Assistant Manager </h2>
         <h5>October 2012 - May 2015</h5>
         <ul  style="list-style-type:square;">
@@ -106,7 +95,6 @@
             <li>Created prodocals to increase efficence and saftey that was adopted company wide</li>
       </ul>
       </div>
-
       <div class="tab-pane fade" id="list-Impact" role="tabpanel" aria-labelledby="list-messages-list">
         <h2> Telecomunications Engineer </h2>
         <h5> March 2010  - May 2012</h5>
@@ -128,9 +116,9 @@
 
 
   <!-- Projects Header -->
-   <div id = "aboutproject" class="jumbotron jumbotron-fluid">
+   <div id = "ProjectJumbo" class="jumbotron jumbotron-fluid">
      <div class="container">
-       <h1 id = "h1about" class="display-4">- Projects -</h1>
+       <h1 id = "h1about" class="display-4">Project Work </h1>
      </div>
    </div>
 
@@ -261,6 +249,7 @@
 
       <button type="button" class="btn btn-inverse btn-light"><a href="https://github.com/McCuaslandBrett"><img src="images/github-logo.png" /> </a></button>
       <button type="button" class="btn btn-inverse btn-light"> <a href="https://www.linkedin.com/in/brett-mccausland-7490b4177/"><img src="images/linkedin-sign.png" /> </a></button>
+      <a id = "creater" class="nav-item nav-link active">Created By Brett McCausland</a>
 
       <!--<a class="nav-item nav-link active" href="https://www.linkedin.com/in/brett-mccausland-7490b4177/"></a> --!>
 
@@ -274,5 +263,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
-    <% include partials/footer.ejs %>
+
 </html>

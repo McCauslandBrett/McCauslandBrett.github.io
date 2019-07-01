@@ -8,6 +8,13 @@
 
 
 }
+body {
+   width:1000px;
+   margin:0 auto;
+}
+#ExperienceJumbo {
+  background-color: white;
+}
 #IR {
   background-image: url('images/coming-soon.jpg');
   background-size:cover;
@@ -92,6 +99,9 @@ a {
 }
 .gdocs {
   display: inline;
+}
+#creater {
+  text-align: right;
 }
 .circletag {
     /* display: block; */
