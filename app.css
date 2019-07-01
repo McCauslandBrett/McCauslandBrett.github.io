@@ -87,6 +87,9 @@ a {
 #drive {
 
 }
+#face {
+   border-radius: 50%;
+}
 .gdocs {
   display: inline;
 }
@@ -98,8 +101,8 @@ a {
     background: #E6E7ED;
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
-    background-image: url(https://images.unsplash.com/photo-1529421308418-eab98863cee4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2110&q=80);
-
+    background-image: url('images/face.jpg');
+    background-size:cover;
     background-repeat:no-repeat;
     background-position: center;
 }
