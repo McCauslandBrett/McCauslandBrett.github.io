@@ -1,0 +1,119 @@
+
+
+#content {
+  text-align: center;
+  padding-top: 25%;
+  padding-left: 5%;
+  padding-bottom: 40%;
+
+
+}
+body {
+  position: relative;
+}
+a {
+    outline: 0;
+}
+
+#project-header {
+  color: black;
+  text-align: center;
+}
+
+#projectjumbo {
+  background-color: rgb(244, 248, 255);
+  text-align: center;
+}
+
+.{
+    outline:0;
+}
+
+#card {
+  margin-bottom: 8%;
+  margin-bottom: 8%;
+}
+
+.gdocs {
+  display: inline-block;
+  margin:auto;
+  /* background-image: url("images/drive.png"); */
+}
+.card-body {
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+.card-header {
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+.card-footer {
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+.container-fluid{
+  border-color: white;
+}
+
+.card-text{
+
+  border-color: white;
+  color: black;
+}
+
+#phone {
+  display: flex;
+
+}
+#aboutsection
+{
+	padding-top: 10%;
+}
+
+#aboutjumbo {
+   background-color: white;
+}
+#drive {
+
+}
+.gdocs {
+  display: inline;
+}
+.circletag {
+    /* display: block; */
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background: #E6E7ED;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    background-image: url(https://images.unsplash.com/photo-1529421308418-eab98863cee4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2110&q=80);
+
+    background-repeat:no-repeat;
+    background-position: center;
+}
+#projectCards {
+    padding-top: 10%;
+}
+#h1about{
+  color: black;
+  text-align: center;
+}
+#pabout{
+  color: black;
+  text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25px;
+}
+
+.personal-assistant{
+    padding: 30px 30px 30px 30px;
+}
