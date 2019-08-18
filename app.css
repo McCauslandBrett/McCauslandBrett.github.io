@@ -13,18 +13,40 @@
 	width: 800px;
 
 }
+#contactJumbo h1{
+  text-align: center;
+  margin-bottom: 5%;
+}
 #card1-background{
   height: 400px;
 	background-color: grey;
   width: 1000px;
   text-align: center;
 }
+#card2-background{
+  height: 400px;
+	background-color: grey;
+  width: 1000px;
+  text-align: center;
+}
+#card2-background h1{
+  color: white;
+  margin-top: 5%;
+}
+#card2-background h5{
+  color: white;
+}
+
 #card1-background h1,h5{
   color: white;
   margin-top: 5%;
 }
 #card1-background h5{
   color: white;
+}
+.form-margins{
+	margin-left: 5%;
+	margin-right: 5%;
 }
 body {
    width:1200px;
